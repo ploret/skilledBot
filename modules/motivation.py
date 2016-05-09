@@ -2,7 +2,7 @@ import sqlite3
 
 
 def get_random_quotation(sqlite_file, sqlite_table):
-    """ get random quotation from sqlite database """
+    """ get random motivational quotation from sqlite database """
     connect = sqlite3.connect(sqlite_file)
     cursor = connect.cursor()
     cursor.execute("SELECT quotation, author FROM %s ORDER BY RANDOM() LIMIT 1" % sqlite_table)

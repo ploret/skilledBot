@@ -35,7 +35,7 @@ Displays actual USD exchange rate
 
  *  **motivation**
 
-Displays random motivation quotation
+Displays random motivational quotation
 
 ![motivation command](https://raw.githubusercontent.com/ploret/skilledBot/master/images/motivation.jpg)
 

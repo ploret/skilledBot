@@ -46,7 +46,7 @@ try:
 
     @bot.message_handler(func=lambda message: message.text == "motivation")
     def display_motivation(m):
-        """ display random motivation quotation """
+        """ display random motivational quotation """
         motivation_db_path = work_dir + '/db/' + config['motivation']['sqlite_db']
         quotations_table = config['motivation']['sqlite_table']
         quotation_info = get_random_quotation(motivation_db_path, quotations_table)

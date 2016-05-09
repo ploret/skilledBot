@@ -1,4 +1,4 @@
-# telegram skilledBot:
+# telegram skilledBot
 
 Python version: 3.5.1
 
@@ -24,6 +24,7 @@ IDE: PyCharm 2016
  *  **help**
 
 Displays all allowed skilledBot`s commands
+
 ![help command](https://raw.githubusercontent.com/ploret/skilledBot/master/images/help.jpg)
 
  *  **usd**
@@ -41,7 +42,7 @@ Displays random motivation quotation
 
  *  **gift**
 
-Display random gift idea
+Displays random gift idea
 
 ![gift command](https://raw.githubusercontent.com/ploret/skilledBot/master/images/gift.jpg)
 
